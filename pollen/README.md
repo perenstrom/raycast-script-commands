@@ -1,6 +1,6 @@
 # Swedish Pollen Raycast Script Command
 
-This is two Script Commands for [Raycast](https://www.raycast.com/), getting data from [The Swedish Museum of Natural History's Pollen Report](https://pollenrapporten.se/) through their open API.
+These are two Script Commands for [Raycast](https://www.raycast.com/), getting data from [The Swedish Museum of Natural History's Pollen Report](https://pollenrapporten.se/) through their open API.
 
 ## Variants
 
