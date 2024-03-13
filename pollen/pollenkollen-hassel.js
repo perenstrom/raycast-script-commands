@@ -54,7 +54,7 @@ const today = new Date().toISOString().split("T")[0];
 
 const getPollen = async () => {
   const result = await fetch(
-    `${BASE_URL}/forecasts?region_id=${REGION_ID}&pollen_id=${POLLEN_ID}&current=true&from_date=${today}`
+    `${BASE_URL}/forecasts?region_id=${REGION_ID}&pollen_id=${POLLEN_ID}&current=true&start_date=${today}`
   );
   const data = await result.json();
   const pollenLevel = data.items?.[0]?.levelSeries?.[0].level;
